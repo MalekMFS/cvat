@@ -44,7 +44,9 @@ RUN apt-get update && \
         unrar \
         p7zip-full \
         vim \
-        git-core && \
+        git-core \
+        libsm6 \
+        libxext6 && \
     pip3 install -U setuptools && \
     ln -fs /usr/share/zoneinfo/${TZ} /etc/localtime && \
     dpkg-reconfigure -f noninteractive tzdata && \
