@@ -66,7 +66,7 @@ server. Proxy is an advanced topic and it is not covered by the guide.
 
     ```bash
     sudo apt-get install -y git
-    git clone https://github.com/opencv/cvat
+    git clone https://github.com/malekmfs/cvat
     cd cvat
     ```
 
@@ -131,7 +131,7 @@ server. Proxy is an advanced topic and it is not covered by the guide.
     [GitHub repository](https://github.com/opencv/cvat).
 
     ```bash
-    git clone https://github.com/opencv/cvat
+    git clone https://github.com/malekmfs/cvat
     cd cvat
     ```
 

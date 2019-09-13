@@ -28,7 +28,7 @@
 
 ### Build docker image
 ```bash
-# From project root directory
+# From project root directory (add new `-f docker-compose.override.yml` file if you are using in production)
 docker-compose -f docker-compose.yml -f components/auto_segmentation/docker-compose.auto_segmentation.yml build
 ```
 

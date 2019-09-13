@@ -23,7 +23,7 @@ $ sudo apt-get install -y curl redis-server python3-dev python3-pip python3-venv
 - Install CVAT on your local host:
 
 ```sh
-$ git clone https://github.com/opencv/cvat
+$ git clone https://github.com/malekmfs/cvat
 $ cd cvat && mkdir logs keys
 $ python3 -m venv .env
 $ . .env/bin/activate
